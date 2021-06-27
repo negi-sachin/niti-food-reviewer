@@ -558,6 +558,10 @@ video {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+.my-4{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 .-mt-4{
 	margin-top: -1rem;
 }
@@ -804,7 +808,7 @@ video {
 	background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
 }
 .bg-landing-background{
-	background-image: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url(https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+	background-image: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url(https://dl.dropboxusercontent.com/s/dpnxdzwjwashgen/rachel-park-hrlvr2ZlUNk-unsplash.jpg);
 }
 .bg-login-background{
 	background-image: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/background-1920x1280.jpg');
@@ -2511,6 +2515,11 @@ video {
 .lg\:justify-start{justify-content:flex-start}
 .lg\:px-36{padding-left:9rem;padding-right:9rem}
 .lg\:text-left{text-align:left}}
+@layer utilities {
+    .-translate-x-1\/2 {
+        --tw-translate-x: -50% !important;
+    }
+}
 .hover\:text-gray-900:hover{
 	--tw-text-opacity: 1;
 	color: rgba(17, 24, 39, var(--tw-text-opacity));

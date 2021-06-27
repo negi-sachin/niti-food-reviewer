@@ -25,7 +25,7 @@ export default function DefaultNavbar() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <NavbarBrand>Material Tailwind</NavbarBrand>
+                        <NavbarBrand>FOOD REVIEWER</NavbarBrand>
                     </a>
                     <NavbarToggler
                         onClick={() => setOpenNavbar(!openNavbar)}
@@ -36,7 +36,7 @@ export default function DefaultNavbar() {
                 <NavbarCollapse open={openNavbar}>
                     <Nav>
                         <div className="flex flex-col z-50 lg:flex-row lg:items-center">
-                            <NavLink
+                            {/* <NavLink
                                 href="https://material-tailwind.com/documentation/quick-start?ref=mtk"
                                 target="_blank"
                                 rel="noreferrer"
@@ -116,6 +116,7 @@ export default function DefaultNavbar() {
                             >
                                 Issues
                             </NavLink>
+                             */}
                             <a
                                 href="https://www.creative-tim.com/product/material-tailwind-kit-react"
                                 target="_blank"
@@ -126,7 +127,7 @@ export default function DefaultNavbar() {
                                     className="bg-white text-black ml-4"
                                     ripple="dark"
                                 >
-                                    Free Download
+                                    Register as an Infuelencer
                                 </Button>
                             </a>
                         </div>

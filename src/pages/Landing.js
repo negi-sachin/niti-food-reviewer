@@ -14,8 +14,8 @@ export default function Landing() {
             <main>
                 <Header />
                 <WorkingSection />
-                <TeamSection />
-                <ContactSection />
+                {/* <TeamSection /> */}
+                {/* <ContactSection /> */}
             </main>
             <DefaultFooter />
         </>
