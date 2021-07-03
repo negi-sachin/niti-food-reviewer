@@ -6,46 +6,56 @@
 // import H6 from '@material-tailwind/react/Heading6';
 // import LeadText from '@material-tailwind/react/LeadText';
 // import Paragraph from '@material-tailwind/react/Paragraph';
-import StatusCard from 'components/landing/StatusCard';
+import StatusCard from "components/landing/StatusCard";
 //import Teamwork from 'assets/img/teamwork.jpeg';
 
 export default function WorkingSection() {
-    return (
-        <section className="pb-20 bg-gray-100 -mt-32">
-            <div className="container max-w-7xl mx-auto px-4">
-                <div className="flex flex-wrap relative z-50">
-                    <StatusCard color="red" icon="stars" title="Chocolate">
-                        Divide details about your product or agency work into
-                        parts. A paragraph describing a feature will be enough.
-                    </StatusCard>
-                    <StatusCard
-                        color="lightBlue"
-                        icon="autorenew"
-                        title="Quick Meals"
-                    >
-                        Keep you user engaged by providing meaningful
-                        information. Remember that by this time, the user is
-                        curious.
-                    </StatusCard>
-                    <StatusCard
-                        color="teal"
-                        icon="fingerprint"
-                        title="Baking Items"
-                    >
-                        Write a few lines about each one. A paragraph describing
-                        a feature will be enough. Keep you user engaged!
-                    </StatusCard>
-                    <StatusCard
-                        color="teal"
-                        icon="fingerprint"
-                        title="Others"
-                    >
-                        Write a few lines about each one. A paragraph describing
-                        a feature will be enough. Keep you user engaged!
-                    </StatusCard>
-                </div>
+  return (
+    <section className="pb-20 bg-gray-100 -mt-32">
+      <div className="container max-w-7xl mx-auto px-4">
+        <div className="flex flex-wrap relative z-50">
+          <StatusCard
+            color="red"
+            icon="stars"
+            title="Chocolate"
+            pathname="Chocolate"
+          >
+            Divide details about your product or agency work into parts. A
+            paragraph describing a feature will be enough.
+          </StatusCard>
 
-                {/* <div className="flex flex-wrap items-center mt-32">
+          <StatusCard
+            color="lightBlue"
+            icon="autorenew"
+            title="Quick Meals"
+            pathname="QuickMeals"
+          >
+            Keep you user engaged by providing meaningful information. Remember
+            that by this time, the user is curious.
+          </StatusCard>
+
+          <StatusCard
+            color="teal"
+            icon="fingerprint"
+            title="Baking Items"
+            pathname="BakingSoda"
+          >
+            Write a few lines about each one. A paragraph describing a feature
+            will be enough. Keep you user engaged!
+          </StatusCard>
+
+          <StatusCard
+            color="teal"
+            icon="fingerprint"
+            title="Others"
+            pathname="Others"
+          >
+            Write a few lines about each one. A paragraph describing a feature
+            will be enough. Keep you user engaged!
+          </StatusCard>
+        </div>
+
+        {/* <div className="flex flex-wrap items-center mt-32">
                     <div className="w-full md:w-5/12 px-4 mx-auto">
                         <div className="text-blue-gray-800 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                             <Icon name="people" size="3xl" />
@@ -86,7 +96,7 @@ export default function WorkingSection() {
                     </div>
                 </div>
              */}
-            </div>
-        </section>
-    );
+      </div>
+    </section>
+  );
 }
