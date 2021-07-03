@@ -31,7 +31,7 @@ const colors = {
 export default function StatusCard({ color, icon, title, children, pathname }) {
   return (
     <Link
-      to={"/product/" + routeMapping[pathname]}
+      to={{pathname:"/product/" + routeMapping[pathname],title}}
       className="w-full md:w-6/12 px-4 flex justify-center text-center my-4"
     >
       <div>
